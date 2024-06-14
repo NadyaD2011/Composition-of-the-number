@@ -12,14 +12,14 @@ function guessNum(num) {
             document.getElementById("twoSummand").innerHTML = twoSummand;
         }
         document.getElementById("myHeading_1").innerHTML = "Игра окончена!"
-        return setTimeout(location.reload (), 2000)
+        return setTimeout(location.reload (), 30000)
     }
     else{
         if (num === twoSummand) {
             document.getElementById("myHeading_1").innerHTML = "Правильно!";
             document.getElementById("twoSummand").innerHTML = twoSummand;
             tries = 3;
-            setTimeout(location.reload (), 2000)
+            setTimeout(location.reload (), 30000)
         }
         else {
             tries++;
