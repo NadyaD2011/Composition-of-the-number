@@ -22,7 +22,7 @@ function guessNum(num) {
         else {
             tries++;
             document.getElementById("myHeading_1").innerHTML = "Не правильно!";
-            document.getElementById("myHeading_2").innerHTML = "Следующее";
+            document.getElementById("myHeading_2").innerHTML = "";
         }
     }
 }
