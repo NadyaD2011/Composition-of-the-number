@@ -29,3 +29,58 @@ img{
     width: 50px;
     height: 50px;
 }
+hr{
+    transform: rotate(90deg);
+}
+.opinion h1{
+    font-size: 5vw;
+}
+.opinion p{
+    font-size: 1.5vw;
+}
+.opinion {
+    text-align: center;
+    color: #c70ec7;
+    font-size: 25px;
+}
+.buttons{
+    margin-top: 25px;
+    text-align: center;
+}
+button{
+    text-align: center;
+    width: 70px;
+    height: 70px;
+    color: white;
+    background-color: #f8bbd0;
+    border-radius: 30%;
+    border: #fccbd8 3px solid;
+    padding: 10px;
+    margin: 10px;
+}
+input{
+    font-size: 25px;
+    text-align: center;
+    border: #f8bbd0 solid 2px;
+    border-radius: 25px;
+    background-color: #fccbd8;
+    color: white;
+    padding: 20px;
+    margin-left: 530px;
+}
+#myHeading_1{
+    text-align: center;
+    color: #a31ad5;
+    font-size: 40px;
+}
+#myHeading_2{
+    text-align: center;
+    color: #c70ec7;
+    font-size: 40px;
+}
+.ditails{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+}
